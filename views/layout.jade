@@ -1,0 +1,79 @@
+doctype html
+html.htmlstyle(lang='en')
+  head
+    meta(charset='utf-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    meta(name='description', content='Omnifood is a premium food delivery service with the mission to bring affordable and healty meals to as many people as possible.')
+    link(rel="stylesheet", href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css", integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk", crossorigin="anonymous")
+    link(rel='stylesheet', type='text/css', href='/stylesheets/grid.css')
+    link(rel='stylesheet', type='text/css', href='/stylesheets/style.css')
+    link(href='http://fonts.googleapis.com/css?family=Lato:100,300,400,300italic', rel='stylesheet', type='text/css')
+    title Desire
+  body.bodystyle
+    sections#features.sections-features.js--sections-features
+      .rows
+        h2s Get them delivered at your doorstep
+        p.long-copy
+          | Hello, we're a non goverental organisation solely acting acting for the welfare of the backward children and providing for them under the RTE act.
+        .cols.span-1-of-4.box
+          i.ion-ios-stopwatch-outline.icon-big
+          h3s At your doorstep
+          p
+            | Our members shall gladly deliver the copies and shall also exhange in case of any discrepency from our side.
+        .cols.span-1-of-4.box
+          i.ion-ios-nutrition-outline.icon-big
+          h3s Always in time
+          p
+            | Our members shall be at your doorstep after you pay within 12 hours of time.
+        .cols.span-1-of-4.box
+          i.ion-ios-cart-outline.icon-big
+          h3s Order anything
+          p
+            | We don't limit your creativity, which means you can order whatever you feel like. You can also choose from over a variety of designs. It's up to you!
+    sections.sections-meals
+    a(href='https://docs.google.com/forms/d/e/1FAIpQLSfkpW8FHC_x6Mu7XuUnfgbuUwIddVHXnh2lVxDdQD76_vincQ/viewform')
+      ul.meals-showcase.clearfix
+        li
+          figure.meal-photo
+            img(src='/images/1.1.jpg', alt='Korean bibimbap with egg and vegetables')			
+        li
+          figure.meal-photo
+            img(src='/images/1.2.jpg', alt='Simple italian pizza with cherry tomatoes')
+        li
+          figure.meal-photo
+            img(src='/images/1.3.jpg', alt='Chicken breast steak with vegetables')
+        li
+          figure.meal-photo
+            img(src='/images/1.4.jpg', alt='Autumn pumpkin soup')
+      ul.meals-showcase.clearfix
+        li
+          figure.meal-photo
+            img(src='/images/2.1.jpg', alt='Paleo beef steak with vegetables')
+        li
+          figure.meal-photo
+            img(src='/images/2.2.jpg', alt='Healthy baguette with egg and vegetables')
+        li
+          figure.meal-photo
+            img(src='/images/2.3.jpg', alt='Burger with cheddar and bacon')
+        li
+          figure.meal-photo
+            img(src='/images/2.4.jpg', alt='Granola with cherries and strawberries')
+    sections#works.sections-steps
+      .rows
+        h2s How it works - Simple as 1, 2, 3
+      .rows
+        .cols.span-1-of-2.steps-box
+          img.app-screen(src='/images/desire-foundation-basant-pachami-in-bhubaneswar.jpg', alt='Form for Purchase')
+        .cols.span-1-of-2.steps-box
+          .works-step.clearfix
+            div 1
+            p Carefully fill up your details your on the form which appear on clicking the copies.
+          .works-step.clearfix
+            div 2
+            p
+              | One of our members shall communicate to you regarding the delivery.
+          .works-step.clearfix
+            div 3
+            p Before you know the copies shall be at your doorstep.
+          button.btn.btn-primary(type='button') Back To Home Page
+    script(src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js')
